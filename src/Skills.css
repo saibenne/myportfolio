@@ -1,0 +1,26 @@
+.Skills{
+    overflow: scroll;
+    margin:3% 0% 0% 0%;
+    padding: 1% 0%;
+}
+.Skills::-webkit-scrollbar{
+    display: none;
+}
+.Skills .Skill-Container{
+    display: flex;
+    width: 400%;
+    justify-content: space-evenly;
+    cursor: pointer;
+    color: white;
+}
+.Skill-Container img{
+    width: 6.5vw;
+    object-fit: contain;
+}
+.Skill-Container div{
+    
+    display: flex;
+    
+}
+
+    

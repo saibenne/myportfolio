@@ -1,0 +1,47 @@
+.Education{
+    background-color: rgba(0,55,55,1);
+    padding: 5% 1%;
+    display: flex;
+    margin:3% 0% 0% 0%;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    border-radius:0% 0% 0% 0%;
+    
+}
+.Education .EduLinks{
+    margin-top: 3%;
+    display: flex;
+    gap:10%;
+    width: 50%;
+}
+.Education .EduLinks button{
+    width: 100%;
+    padding: 1% 0%;
+    background-color: rgba(0,55,55,1);
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border:1px solid white;
+    cursor: pointer;
+    font-size: 1.2vw;
+}
+.Education .School{
+    background-color: rgba(255,255,255,0.1);
+    padding: 3%;
+    box-shadow: 1px 1px 5px black;
+    border-radius:10px;
+    backdrop-filter: blur(15px);
+    color: rgba(255,255,255,0.7);
+    min-width: 70%;
+}
+.Education .School .Name{
+    font-size: 3.5vw;
+}
+.Education .School .Qualification{
+    font-size: 20px;
+    margin-left: 0.5%;
+}
+.Education .School .Details ul{
+    
+    
+}

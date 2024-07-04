@@ -1,0 +1,79 @@
+.Projects{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,55,55,1);
+    height: 100vw;
+    justify-content: space-evenly;
+    color: white;
+    padding:2%;
+    margin:3% 0% 0% 0%;
+}
+.Projects .Project{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin:2% 1%;
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(20px);
+}
+.ProjectLeft ,.ProjectRight{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ProjectLeft{
+    background-color: rgba(255,255,255,0.02);
+    padding:0% 1%;
+    color: rgba(255,255,255,0.7);
+}
+
+
+.ProjectLeft .Title{
+    font-size: 2.5vw;
+    text-align: center;
+    
+}
+.ProjectLeft .Details{
+    font-size: 1.2vw;
+}
+.ProjectRight{
+    padding: 1% 2%;
+    font-size: 1.5vw;
+    
+    align-items: start;
+    gap:10px;
+    color: rgba(255,255,255,0.7);
+}
+@media screen and (max-width:600px){
+    .Projects .Project{
+        flex-direction: column;
+        align-items: center;
+    }
+    .ProjectLeft {
+        width:100%;
+        padding: 2%;
+    }
+    .ProjectRight{
+        width: 90%;
+        text-align: justify;
+        padding: 2%;
+    }
+    .Projects{
+        height: 100%;
+        gap:10px;
+        padding: 6%;
+        
+    }
+    .Project .Title{
+        font-size:18px;
+    }
+    .Project .Details{
+        font-size:15px;
+    }
+    .Project .ProjectRight{
+        font-size:17px;
+    }
+    
+}

@@ -1,0 +1,38 @@
+.Contact{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,55,55,1);
+    margin:1% 0% 0% 0%;
+    padding: 3%;
+    align-items: center;
+}
+.Contact .Contact-Container{
+    width:100%;
+}
+.Contact .Contact-Container ul{
+    display: flex;
+    width:90%;
+    justify-content: space-around;
+}
+.Contact .Contact-Container ul li{
+    font-size: 20px;
+    list-style: none;
+}
+.Contact .Contact-Container .Icon{
+    width:40px;
+    height: 40px;
+    color: whitesmoke;
+    padding: 10px;
+}
+.Contact .Contact-Container a{
+    color: whitesmoke;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.Contact .Address{
+    color: whitesmoke;
+    font-size: 20px;
+    padding:2% 0%;
+}

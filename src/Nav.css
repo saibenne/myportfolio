@@ -1,0 +1,51 @@
+.Nav{
+    display: flex;
+    justify-content: space-between;
+    padding:10px 5%;
+    align-items: center;
+    box-shadow: 1px 1px 10px;
+    background-color: rgba(0,55,55,1);
+    position: sticky;
+    top:0%;
+    z-index: 1;
+}
+
+.Nav .Name{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+.Nav .Menu{
+    
+    width: 50%;
+    
+    border-radius: 0% 0% 0% 0%;
+}
+.Nav .Menu ul{
+    display: flex;
+    width: 100%;
+    gap:10px;
+    
+    justify-content: space-evenly;
+    
+    
+}
+.Nav a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.Nav .Menu ul li:has(a.active){
+    background-color: rgba(255,255,255,1);
+    border-radius: 5px;
+    color: black;
+}
+.Nav .Menu ul li{
+    list-style: none;
+    font-size: 18px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 1% 0%;
+    color: white;
+    
+}

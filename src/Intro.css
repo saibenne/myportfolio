@@ -1,0 +1,89 @@
+.Intro{
+    display: flex;
+    height:40vw;
+    margin:1% 0% 0% 0%;
+    background-color: rgba(0,55,55,1);
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 0% 0% 0% 1500%;
+    border-bottom:10px solid ;
+}
+.Intro .Profile{
+    width: 30%;
+    margin:2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70%;
+    
+}
+.Intro .ProfilePic{
+    
+    height:30vw;
+    background-color: black;
+    box-shadow: 1px 1px 10px;
+    width: 100%;
+    border-radius: 50%;
+    border:0.5vw solid white
+}
+.Intro .Resume a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+.Intro .Resume{
+    background-color: rgba(0,55,55,1);
+    padding: 2%;
+    width: 50%;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.Intro .ProfilePic img{
+    object-fit: contain;
+    width: 100%;
+    height: 30vw;
+    border-radius: 50%;
+}
+.Intro .Introduction{
+    width: 70%;
+    background-color: rgba(0,55,55,1);
+    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border:0.5vw solid white;
+    border-radius: 50% 0% 50% 30%;
+    
+    
+}
+.Intro .Introduction p{
+    font-size: 1.5vw;
+    box-shadow:2px 2px 5px 1px black;
+    color: rgba(255,255,255,0.7);
+    width: 70%;
+    border-radius: 10px;
+    line-height: 120%;
+    text-align:left;
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(20px);
+    padding: 5%;
+    
+}
+
+@media screen and (max-width : 600px) {
+    .Intro,.Intro .Introduction{
+        flex-direction: column;
+        border-radius: 0%;
+        width: 100%;
+        
+    }
+    .Intro{
+        height:100%;
+    }
+    .Intro .Introduction p{
+        font-size:18px;
+    }
+    
+}
