@@ -16,6 +16,11 @@ export default function Nav(){
         
         
     },[])
+    if(menuRef.current){
+        if(menuRef.current.clientWidth>600){
+            menuRef.current.style.display="block"
+        }
+    }else{
     if(menuBar){
         if(menuRef.current){
         menuRef.current.style.display="block"
@@ -26,6 +31,7 @@ export default function Nav(){
         menuRef.current.style.display="none"
         }
     }
+}
     
     
     return(
