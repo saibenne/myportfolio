@@ -45,3 +45,22 @@
     
     
 }
+@media screen and (max-width:600px) {
+    .Education .School{
+        width: 100%;
+        height: 70%;
+        
+    }
+    .Education{
+        padding: 10%;
+        margin:0%;
+    }
+    .Education .EduLinks{
+        
+        width: 100%;
+        
+    }
+    .Education .EduLinks button{
+        font-size: 2.5vw;
+    }
+}

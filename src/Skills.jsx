@@ -37,7 +37,7 @@ export default function Skills() {
         <div className='Skill-Container' 
         >
         {Skills.concat(Skills).map(skill=>(
-            <div><img src={`SkillsImages/${skill}.png`} alt={skill} ></img></div>
+            <div><img src={`${process.env.PUBLIC_URL}/SkillsImages/${skill}.png`} alt={skill} ></img></div>
         ))}
     </div>
     

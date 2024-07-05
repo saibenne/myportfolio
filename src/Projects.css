@@ -4,6 +4,7 @@
     background-color: rgba(0,55,55,1);
     height: 100vw;
     justify-content: space-evenly;
+    align-items: center;
     color: white;
     padding:2%;
     margin:3% 0% 0% 0%;
@@ -50,16 +51,17 @@
     .Projects .Project{
         flex-direction: column;
         align-items: center;
+        width: 100%;
+        
     }
     .ProjectLeft {
         width:100%;
-        padding: 2%;
+        padding: 10% 3%;
+        
+        
+        
     }
-    .ProjectRight{
-        width: 90%;
-        text-align: justify;
-        padding: 2%;
-    }
+   
     .Projects{
         height: 100%;
         gap:10px;
@@ -67,13 +69,19 @@
         
     }
     .Project .Title{
-        font-size:18px;
+        font-size:4.5vw;
     }
     .Project .Details{
-        font-size:15px;
+        font-size:3.5vw;
     }
     .Project .ProjectRight{
-        font-size:17px;
+        font-size:3.5vw;
+        line-height: 150%;
+        width: 100%;
+        background-color: rgba(255,255,255,0.001);
+    }
+    .ProjectRight div{
+        padding: 3%;
     }
     
 }

@@ -9,7 +9,9 @@
     top:0%;
     z-index: 1;
 }
-
+.Nav .Logo .MenuBar{
+    display: none;
+}
 .Nav .Name{
     color: white;
     font-size: 28px;
@@ -48,4 +50,33 @@
     padding: 1% 0%;
     color: white;
     
+}
+@media screen and (max-width:600px){
+    
+    .Nav .Menu ul{
+        flex-direction: column;
+        width: 80%;
+        
+        
+    }
+    .Nav .Menu{
+        position: absolute;
+        top:100%;
+        background-color: rgba(0,55,55,1);
+        width: 100%;
+    }
+
+    .Nav{
+        flex-direction: column;
+    }
+    .Nav .Logo .MenuBar{
+        display: block;
+        cursor: pointer;
+    }
+    .Nav .Logo {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
 }

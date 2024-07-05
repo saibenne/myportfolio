@@ -1,8 +1,9 @@
 import React from 'react'
 import './Intro.css'
+
 export default function Intro() {
   const IntroData={
-    profilePic:'/saibenneresumeimg.png',
+    profilePic:'/public/Images/saibenneresumeimg.png',
     introduction:"Results-driven software developer with a strong foundation in Java and a proven track "+
 "record in web development and modern application architecture. Adept at designing "+
 "and implementing scalable solutions using a wide range of technologies including "+
@@ -15,7 +16,7 @@ export default function Intro() {
     <div className='Intro' id='intro'>
        <div className='Profile'>
         <div className='ProfilePic'>
-            <img src={IntroData.profilePic} alt='Saibenneresumeimg'></img>
+            <img src={`${process.env.PUBLIC_URL}/Images/saibenneresumeimg.png`} alt='Saibenneresumeimg'></img>
             
         </div>
         <div className='Resume'>

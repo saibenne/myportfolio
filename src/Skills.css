@@ -22,5 +22,13 @@
     display: flex;
     
 }
-
+@media screen and (max-width:600px) {
+    .Skill-Container img{
+        width: 13.5vw;
+        
+    }
+    .Skills .Skill-Container{
+        width:700%;
+    }
+}
     

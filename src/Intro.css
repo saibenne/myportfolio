@@ -61,7 +61,7 @@
 .Intro .Introduction p{
     font-size: 1.5vw;
     box-shadow:2px 2px 5px 1px black;
-    color: rgba(255,255,255,0.7);
+    color: rgba(255,255,255,0.8);
     width: 70%;
     border-radius: 10px;
     line-height: 120%;
@@ -79,11 +79,44 @@
         width: 100%;
         
     }
+    .Intro .Introduction{
+        
+    }
     .Intro{
         height:100%;
+        
     }
     .Intro .Introduction p{
         font-size:18px;
+        margin:10%;
+        line-height: 150%;
+    }
+    .Intro .Profile{
+        flex-direction: row;
+        width: 100%;
+    }
+    .Intro .ProfilePic{
+        width: 50%;
+        
+        height: 40vh;
+        margin: 2%;
+
+    }
+    .Intro .Resume a::before{
+        content: "Hi!..This is my ";
+        
+    }
+    .Intro .Resume a{
+        font-size: 3vw;
+        background-color:rgba(255,255,255,0.2);
+        padding: 5% 7%;
+    }
+    .Intro .Resume{
+        
+        
+    }
+    .Intro .ProfilePic img{
+        height: 100%;
     }
     
 }

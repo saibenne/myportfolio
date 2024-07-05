@@ -11,18 +11,18 @@
 }
 .Contact .Contact-Container ul{
     display: flex;
-    width:90%;
+    width:100%;
     justify-content: space-around;
 }
 .Contact .Contact-Container ul li{
-    font-size: 20px;
+    font-size: 1.5vw;
     list-style: none;
 }
 .Contact .Contact-Container .Icon{
-    width:40px;
-    height: 40px;
+    width:10%;
+    height: 10%;
     color: whitesmoke;
-    padding: 10px;
+    padding: 3%;
 }
 .Contact .Contact-Container a{
     color: whitesmoke;
@@ -33,6 +33,16 @@
 }
 .Contact .Address{
     color: whitesmoke;
-    font-size: 20px;
+    font-size: 1.5vw;
     padding:2% 0%;
+}
+@media screen and (max-width:600px) {
+    .Contact .Contact-Container ul li,.Contact .Address{
+        font-size: 2vw;
+    }
+    .Contact .Contact-Container .Icon{
+        height: 15%;
+        width: 15%;
+    }
+    
 }
