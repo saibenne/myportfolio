@@ -8,30 +8,54 @@ export default function Nav(){
     const ref=useRef(null)
     const menuRef=useRef(null)
     const [navHeight,setNavHeight]=useState(0)
+    const [navWidth,setNavWidth]=useState(0)
     const [menuBar,setMenuBar]=useState(false)
     useEffect(()=>{
         if(ref.current){
             setNavHeight(ref.current.clientHeight)
+            
         }
-        
+        const interval= setInterval(() => {
+            if(ref.current){
+                
+                setNavWidth(ref.current.clientWidth)
+            }
+        }, 1);
+        return(()=>{
+            clearInterval(interval)
+        })
         
     },[])
-    if(menuRef.current){
-        if(menuRef.current.clientWidth>600){
-            menuRef.current.style.display="block"
+    
+    useEffect(()=>{
+        if(navWidth>950&&!menuBar){
+            setMenuBar(true);
         }
-    }else{
-    if(menuBar){
-        if(menuRef.current){
-        menuRef.current.style.display="block"
+        else{
+            if(navWidth<=950)
+            {
+            setMenuBar(false)
+            }
         }
-    }
-    else{
-        if(menuRef.current){
-        menuRef.current.style.display="none"
+        
+    },[navWidth])
+    
+    useEffect(()=>{
+        
+        
+        if(menuBar){
+            if(menuRef.current){
+                 menuRef.current.style.display="block"
+            }
         }
-    }
-}
+        else{
+            if(menuRef.current){
+             menuRef.current.style.display="none"
+            }
+        }
+        
+    },[menuBar])
+    
     
     
     return(
