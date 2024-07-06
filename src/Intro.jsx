@@ -20,7 +20,7 @@ export default function Intro() {
             
         </div>
         <div className='Resume'>
-        <a href='/files/SAI_PRAKASH_BENNE__.pdf' download="SAI_PRAKASH_BENNE__.pdf">Resume</a>
+        <a href={`${process.env.PUBLIC_URL}/files/SAI_PRAKASH_BENNE_.pdf`} download="SAI_PRAKASH_BENNE__.pdf">Resume</a>
         </div>
         </div>
         <div className='Introduction'>

@@ -1,7 +1,7 @@
 .Contact{
     display: flex;
     flex-direction: column;
-    background-color: rgba(0,55,55,1);
+    background-color:black;
     margin:1% 0% 0% 0%;
     padding: 3%;
     align-items: center;
