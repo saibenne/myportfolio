@@ -16,7 +16,7 @@ export default function Intro() {
     <div className='Intro' id='intro'>
        <div className='Profile'>
         <div className='ProfilePic'>
-            <img src={`${process.env.PUBLIC_URL}/Images/saibenneresumeimg.png`} alt='Saibenneresumeimg'></img>
+            <img src={`${process.env.PUBLIC_URL}/Images/saibenneresumeimg1.png`} alt='Saibenneresumeimg'></img>
             
         </div>
         <div className='Resume'>
