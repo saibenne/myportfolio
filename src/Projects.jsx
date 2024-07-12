@@ -6,8 +6,8 @@ export default function Projects() {
             title:"Stock price prediction using Ensemble Machine Learning Techniques and Sentimental analysis",
             details:{
                 domain:"Machine Learning",
-                duration:"04-2024 - 07-2024",
-                keywords:"one, two, three",
+                duration:"01-2023 - 06-2023",
+                keywords:"Stock Price Prediction, Ensemble Learning, Sentiment Analysis, Machine Learning, Financial Markets, Predictive Modeling, Natural Language Processing (NLP)",
             },
             description:"This case study explores the application of ensemble machine learning techniques in combination with sentiment analysis for stock price prediction. By utilizing Long Short-Term Memory (LSTM), Support Vector Machine (SVM), XGBoost, and Random Forest models, and integrating sentiment analysis, this project aims to provide a comprehensive analysis of their effectiveness in predicting stock prices",
             technologies:" React ,Spring Boot, Java, Python, ML Libraries"
@@ -15,23 +15,23 @@ export default function Projects() {
         {
             title:" RoyalTheorem - An eCommerce server side application using Microservices architecture ",
             details:{
-                domain:"Machine Learning",
-                duration:"04-2024 - 07-2024",
-                keywords:"one, two, three",
+                domain:"Software Architecture",
+                duration:"03-2023 - 05-2023",
+                keywords:"Microservices Architecture, REST APIs, API Gateway, Authentication & Authorization, Spring Boot",
             },
             description:"This project involves the development of a Spring Boot-based microservices architecture for managing various aspects of a design and order system. The system"+ 
 "comprises multiple microservices, including Designer Service, User Service, Krders Service, and Design Service. Additionally, it employs Net'ix Eureka Server for"+ 
 "service registry and discovery, Spring Cloud Gateway as the API gateway, and Redis for caching purposes. •ey tasks included designing RESTful APIs, implementing "+
 "microservices using Spring Boot, managing service-to-service communication, and ensuring fault tolerance. I used Postman tool to test each REST API and service to service communication",
-            technologies:"Java ,Spring Boot, Net'ix Eureka Server, Redis cloud, Spring"+ 
+            technologies:"Java ,Spring Boot, Netflix Eureka Server, Redis cloud, Spring"+ 
 "Cloud Gateway, Spring data JPA, MySQL, MongoDB"
         },
         {
             title:"BlockForge API: Crafting Blockchain Networks and Deploying Smart Contracts with Ease",
             details:{
-                domain:"Machine Learning",
-                duration:"04-2024 - 07-2024",
-                keywords:"one, two, three",
+                domain:"Blockchain",
+                duration:"07-2023 - 02-2024",
+                keywords:"Blockchain Networks, Smart Contracts, API, Blockchain Development, Decentralized Applications (DApps), Cryptocurrency, Distributed Ledger Technology (DLT)",
             },
             description:"In this groundbreaking project, our team is focused on developing an advanced API"+ 
 "(Application Programming Interface) for the seamless creation and deployment of"+ 
